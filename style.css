@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+div img{
+    width: 100%;
+}
+.logo{
+    padding: 20px;
+}
+.logo img{
+    width: 50%;
+}
+.main{
+    display: none;
+}
+body{
+    padding: 10%;
+    padding-bottom: 80px;
+    font-family: "poppins",sans-serif;
+    background-color: antiquewhite;
+}
+input{
+    margin-top: 20px;
+    border: groove 2px rgba(216, 112, 147, 0.644);
+    width: 180px;
+    padding: 11px;
+    border-radius: 20px;
+}
+p{
+    color:palevioletred;
+    font-size: 15px;
+}
+.body{
+    padding: 10px;
+    text-align: center;
+}
+.body h1{
+    font-weight: 500;
+    font-size: 40px;
+    padding: 0px 40px;
+}
+.body p{
+    margin-top: 7px;
+}
+.body img{
+    margin-bottom: -13px;
+    margin-left: -45px;
+    border-radius: 30px;
+    text-align: end;
+    align-items: center;
+    width:35px;
+    height: 22px;
+    padding: 7px;
+    background-color: brown;
+}
+
+
+
+.desktop{
+    grid-auto-rows: minmax(500px,auto);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-1 img{
+    width: 200px;
+}
+
+.grid-1{
+    padding: 35px;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.grid-text{
+    width: 50%;
+   padding: 0px 40px;
+
+}
+.desktop-arrow{
+    margin-bottom: -13px;
+    margin-left: -45px;
+    border-radius: 30px;
+    align-items: center;
+    width:5px;
+    height: 22px;
+    padding: 7px;
+    background-color: brown;
+}
+.grid-1 h1{
+    margin-top: 70px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.grid-text p{
+    line-height: 27px;
+}
+
+@media screen and (max-width:800px) {
+ .main{
+     display: block;
+ }
+ .desktop{
+     display: none;
+ }
+}
